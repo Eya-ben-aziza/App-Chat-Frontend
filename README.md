@@ -22,22 +22,24 @@ Session Management: Ensures authenticated access for users.
 - Vite : for development tooling 
 
 ## 📦 How to run
-- clone the repository :
+### 1. clone the repository :
     git clone https://github.com/Eya-ben-aziza/App-Chat-Frontend.git
       cd App-Chat-Frontend
-- install dependencies:
-    npm install
-- configure the backend:
-    make sure the backend WebSocket server is running at http://localhost:3000
-    check the backend README.md file for reference as setup instructions in this URL: https://github.com/Eya-ben-aziza/app-chat-backend.git    
-- run the project: 
-    npm run start
-**The app will usually be available at http://localhost:3001
-### 1. Install dependencies
-
+### 2. install dependencies:
 ```bash
 npm install
 ```
+### 3. configure the backend:
+    make sure the backend WebSocket server is running at http://localhost:3000
+    check the backend README.md file for reference as setup instructions in this URL: https://github.com/Eya-ben-aziza/app-chat-backend.git    
+### 4. run the project: 
+```bash
+    npm run start
+```
+**The app will usually be available at http://localhost:3001
+
+
+
 ## UI Screenshots:
 ![app_screenshot](./screenshotApp.png)
 ![app_screenshot](screenshotApp2.png)

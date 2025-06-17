@@ -2,9 +2,6 @@
 
 This is the **React.js frontend** for the Real-Time Chat Application. It communicates with a NestJS WebSocket server to enable real-time message exchange between users.
 
-## Screenshots:
-![app_screenshot](./screenshotApp.png)
-
 
 ## 🚀 Features
 
@@ -25,19 +22,22 @@ Session Management: Ensures authenticated access for users.
 - Vite : for development tooling 
 
 ## 📦 How to run
-1- clone the repository :
+- clone the repository :
     git clone https://github.com/Eya-ben-aziza/App-Chat-Frontend.git
       cd App-Chat-Frontend
-2- install dependencies:
+- install dependencies:
     npm install
-3- configure the backend:
-    make sure the backend WebSocket server is running
-    check the backend README.md file for reference as setup instructions      
-4- run the project: 
+- configure the backend:
+    make sure the backend WebSocket server is running at http://localhost:3000
+    check the backend README.md file for reference as setup instructions in this URL: https://github.com/Eya-ben-aziza/app-chat-backend.git    
+- run the project: 
     npm run start
-**The app will usually be available at http://localhost:3000
+**The app will usually be available at http://localhost:3001
 ### 1. Install dependencies
 
 ```bash
 npm install
-
+```
+## UI Screenshots:
+![app_screenshot](./screenshotApp.png)
+![app_screenshot](screenshotApp2.png)
